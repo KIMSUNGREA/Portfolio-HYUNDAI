@@ -1,0 +1,1782 @@
+<!DOCTYPE html>
+<html lang="ko">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no">
+    <title>현대해상</title>
+    <script src="js/jquery-1.11.1.min.js"></script>
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="http://cdn.jsdelivr.net/npm/xeicon@2.3.3/xeicon.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/m_style.css">
+</head>
+
+<body>
+    <header>
+        <div class="headerTop pc">
+            <div class="wrap cl">
+                <div class="leftsub">
+                    <ul>
+                        <li><a href="#">대표</a></li>
+                        <li><a href="#">기업</a></li>
+                        <li><a href="#">적하</a></li>
+                        <li><a href="#">퇴직연금</a></li>
+                        <li><a href="#">다이렉트</a></li>
+                    </ul>
+                </div>
+                <div class="rightsub">
+                    <ul>
+                        <li><a href="#">회사소개</a></li>
+                        <li><a href="#">소비자포털</a></li>
+                        <li><a href="#">공시실</a></li>
+                        <li><a href="#">디지털파트너센터</a></li>
+                        <li><a href="#">펀드시스템</a></li>
+                        <li><a href="#">English</a></li>
+                        <li>
+                            <span>큰글씨</span>
+                            <a href="#" class="xi-plus-circle-o"></a>
+                            <a href="#" class="xi-minus-circle-o"></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="submu" class="mob">
+            <div class="wrap">
+                <section class="subhd">
+                    <h1 class="imgw">
+                        <img src="images/main5icon.png" alt="모바일로고">
+                    </h1>
+                    <div class="right">
+                        <a href="#" class="crog">회원가입</a>
+                        <a href="#" class="crog">로그인</a>
+                        <a href="#" class="xi-close xeicon"></a>
+                    </div>
+                    <div class="inp">
+                        <input type="text" placeholder="메뉴명/상품명검색">
+                        <img src="images/ico_mn_search.png" alt="돋보기">
+                    </div>
+                    <ul>
+                        <li><a href="#">지점찾기</a></li>
+                        <li><a href="#">인증센터</a></li>
+                        <li><a href="#">소비자포털</a></li>
+                    </ul>
+                </section>
+                <section class="mob sublist">
+                    <div class="wrap">
+                        <ul class="slleft">
+                            <li><a href="#">마이페이지</a></li>
+                            <li><a href="#">인터넷창구</a></li>
+                            <li><a href="#">보험상품</a></li>
+                            <li><a href="#">대출</a></li>
+                            <li><a href="#">보상서비스</a></li>
+                            <li><a href="#">혜택/이벤트</a></li>
+                            <li><a href="#">스마트발급센터</a></li>
+                            <li><a href="#">고객지원센터</a></li>
+                            <li><a href="#">소비자포털</a></li>
+                            <li><a href="#">다이렉트</a></li>
+                            <li><a href="#">회사소개</a></li>
+                            <li><a href="#">공시실</a></li>
+                            <li><a href="#">디지털파트너센터</a></li>
+                            <li><a href="#">ENGLISH</a></li>
+                        </ul>
+                        <div class="slsub1 slright slideon">
+                            <ul>
+                                <li><a href="#">마이페이지 홈</a></li>
+                                <li>
+                                    <a href="#">개인정보 관리<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">개인정보 변경</a></li>
+                                        <li><a href="#">수신동의 설정</a></li>
+                                        <li><a href="#">개인(신용)정보이용•제공내역</a></li>
+                                        <li><a href="#">마케팅목정이용•제공내역</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">질문/건의 내역</a></li>
+                                <li><a href="#">이벤트 내역</a></li>
+                            </ul>
+                        </div>
+                        <div class="slsub2 slright">
+                            <ul>
+                                <li><a href="#">계약조회</a></li>
+                                <li>
+                                    <a href="#">장기보험계약 변경<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">자녀등록(태아확정)</a></li>
+                                        <li><a href="#">다자녀할인(어린이보험)신청</a></li>
+                                        <li><a href="#">계약자 변경</a></li>
+                                        <li><a href="#">수익자 변경</a></li>
+                                        <li><a href="#">자동갱신특약 갱신거절</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">자동차보험계약 변경<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">자동차번호 확정/변경</a></li>
+                                        <li><a href="#">운전자/연령범위 변경</a></li>
+                                        <li><a href="#">가입경력인정자 신청/변경</a></li>
+                                        <li><a href="#">단기운전자 확대특약가입</a></li>
+                                        <li><a href="#">ECO마일리지특약중도가입</a></li>
+                                        <li><a href="#">특약사진 등록/조회</a></li>
+                                        <li><a href="#">담보/특약 변경</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">계약 체결/관리<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">우편물수령지 변경</a></li>
+                                        <li><a href="#">개인(신용)정보처리 동의</a></li>
+                                        <li><a href="#">계약체결을 위한 전자서명</a></li>
+                                        <li><a href="#">완전판매e모니터링</a></li>
+                                        <li><a href="#">계약변경/부활 전자서명</a></li>
+                                        <li><a href="#">청약철회</a></li>
+                                        <li><a href="#">타사 연금이전 신청</a></li>
+                                        <li><a href="#">TM상품녹취 신청/조회</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">납입/환급<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">보험료 납입</a></li>
+                                        <li><a href="#">연금저축보험료 추가납입</a></li>
+                                        <li><a href="#">자동이체계좌 신청/변경</a></li>
+                                        <li><a href="#">신용카드 등록/변경/해지</a></li>
+                                        <li><a href="#">가상계좌 신청</a></li>
+                                        <li><a href="#">환급금지급계좌 신청/변경</a></li>
+                                        <li><a href="#">만기/중도환급금 신청</a></li>
+                                        <li><a href="#">자동차미환급금 신청</a></li>
+                                        <li><a href="#">휴먼보험금 신청</a></li>
+                                        <li><a href="#">연금 신청</a></li>
+                                        <li><a href="#">중도인출 신청</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="slsub3 slright">
+                            <ul class="container">
+                                <li><a href="#">대표</a></li>
+                                <li><a href="#">다이렉트</a></li>
+                            </ul>
+                            <ul>
+                                <li>
+                                    <a href="#">내 보험 컨디션 체크(보장분석)</a>
+                                </li>
+                                <li>
+                                    <a href="#">자동차/운전자<i></i></a>
+                                    <ul class="none">
+                                        <li>
+                                            <a href="#">Hicar자동차보험</a>
+
+                                        </li>
+                                        <li>
+                                            <a href="#">운전자보험</a>
+                                        </li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">건강/자녀<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">퍼펙트플러스종합보험</a></li>
+                                        <li><a href="#">굿앤굿어린이종합보험Q</a></li>
+                                        <li><a href="#">굿앤굿어린이스타종합보험</a></li>
+                                        <li><a href="#">계속받는암보험</a></li>
+                                        <li><a href="#">밝게웃는얼굴치아보험</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">유병자/실손<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">뉴간편플러스종합보험</a></li>
+                                        <li><a href="#">간편한333보험</a></li>
+                                        <li><a href="#">실손의료비보장보험</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">화재/재물<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">성공마스터재산종합보험</a></li>
+                                        <li><a href="#">행복가득생활보장보험</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">연금/저축<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">노후웰스보험</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="slsub4 slright">
+                            <ul>
+                                <li>
+                                    <a href="#">보험계약대출<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">보험계약대출 신청</a></li>
+                                        <li><a href="#">보험계약대출 상환</a></li>
+                                        <li><a href="#">이자납입계좌 변경</a></li>
+                                        <li><a href="#">보험계약대출거래내역조회</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">신용대출<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">신용대출 신청</a></li>
+                                        <li><a href="#">신용대출 상환</a></li>
+                                        <li><a href="#">신용대출거래내역조회</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">담보대출<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">담보대출상품</a></li>
+                                        <li><a href="#">담보대출 상환</a></li>
+                                        <li><a href="#">담보대출거래내역조회</a></li>
+                                        <li><a href="#">금리산정내역서조회</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">금리인하요구권(개인/기업)</a></li>
+                                <li><a href="#">대출계약철회권</a></li>
+                            </ul>
+                            <ul class="boxmenu">
+                                <li><a href="#">대출이자계산기</a></li>
+                                <li><a href="#">부대비용안내</a></li>
+                                <li><a href="#">채권추심업무처리절차</a></li>
+                                <li><a href="#">소멸시효완성결과조회</a></li>
+                                <li>
+                                    <a href="#">PDF다운로드자료<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">기업여신거래기본약관</a></li>
+                                        <li><a href="#">개인여신거래기본약관</a></li>
+                                        <li><a href="#">자본시장법시행안내</a></li>
+                                        <li><a href="#">표준투자권유준착안내</a></li>
+                                        <li><a href="#">예약금이용료지급기준</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">대출부당광고신고센터</a></li>
+                                <li><a href="#">신용회복지원제도</a></li>
+                            </ul>
+                        </div>
+                        <div class="slsub5 slright">
+                            <ul>
+                                <li>
+                                    <a href="#">질병/상해<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">질병/상해 보험금청구</a></li>
+                                        <li><a href="#">단체보험 보험금청구</a></li>
+                                        <li><a href="#">질병/상해/단체보험 서류제출</a></li>
+                                        <li><a href="#">질병/상해/단체보험 처리현황조회</a></li>
+                                        <li><a href="#">온라인서류제출(스크래핑)</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">자동차<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">사고접수 안내</a></li>
+                                        <li><a href="#">고장출동 신청</a></li>
+                                        <li><a href="#">자동차사고 처리현황조회</a></li>
+                                        <li><a href="#">하이카서비스이용내역</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">재물/배상책임(일반보험)<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">재물/배상책임 보험금청구</a></li>
+                                        <li><a href="#">휴대품 손해 보험금청구</a></li>
+                                        <li><a href="#">휴대품 손해 서류제출</a></li>
+                                        <li><a href="#">재물/배상/휴대품 처리현황조회</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">보상가이드<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">교통사고처리요령</a></li>
+                                        <li><a href="#">자동차 사고발생시 책임</a></li>
+                                        <li><a href="#">자동차사고보험처리유불리</a></li>
+                                        <li><a href="#">정부보장사업</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                            <ul class="boxmenu">
+                                <li><a href="#">과실비율판정</a></li>
+                                <li><a href="#">자동차리콜정보</a></li>
+                            </ul>
+                        </div>
+                        <div class="slsub6 slright">
+                            <ul>
+                                <li>
+                                    <a href="#">우수고객서비스</a>
+                                </li>
+                                <li>
+                                    <a href="#">하이카서비스<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">고장출동서비스</a></li>
+                                        <li><a href="#">우수제휴정비업체서비스</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">상품부가/제휴서비스<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">하이헬스챌린지</a></li>
+                                        <li><a href="#">메디케어</a></li>
+                                        <li><a href="#">굿앤굿덴탈케어</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">이벤트</a>
+                                </li>
+                                <li>
+                                    <a href="#">재테크BTI</a>
+                                </li>
+                                <li>
+                                    <a href="#">타로BTI</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="slsub7 slright">
+                            <ul>
+                                <li>
+                                    <a href="#">증명서발급<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">보험증권</a></li>
+                                        <li><a href="#">소득공제용보험료납입증명서</a></li>
+                                        <li><a href="#">손비처리용보험료납입증명서</a></li>
+                                        <li><a href="#">보험금지급내역서</a></li>
+                                        <li><a href="#">장기보험증명서</a></li>
+                                        <li><a href="#">자동차보험증명서</a></li>
+                                        <li><a href="#">보험계약대출증명서</a></li>
+                                        <li><a href="#">대출증명서</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">보험금청구 필요서류<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">질병/일반상해</a></li>
+                                        <li><a href="#">교통상해</a></li>
+                                        <li><a href="#">자동차</a></li>
+                                        <li><a href="#">재물</a></li>
+                                        <li><a href="#">배상책임</a></li>
+                                        <li><a href="#">여행</a></li>
+                                        <li><a href="#">기타</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">업무처리 필요서류<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">정기보험</a></li>
+                                        <li><a href="#">자동차보험</a></li>
+                                        <li><a href="#">담보대출 신청서류</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="slsub8 slright">
+                            <ul>
+                                <li>
+                                    <a href="#">자주하는질문(FAQ)</a>
+                                </li>
+                                <li>
+                                    <a href="#">보험용어사전</a>
+                                </li>
+                                <li>
+                                    <a href="#">고객의 소리<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">질문/건의</a></li>
+                                        <li><a href="#">고객칭찬</a></li>
+                                        <li><a href="#">전자민원접수</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">서비스 이용안내<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">인터넷서비스 이용시간안내</a></li>
+                                        <li><a href="#">모바일 이용안내</a></li>
+                                        <li><a href="#">콜센터 이용안내</a></li>
+                                        <li><a href="#">창구 이용안내</a></li>
+                                        <li><a href="#">장애인 이용안내</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">인증센터<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">간편인증서 발급/관리</a></li>
+                                        <li><a href="#">얼굴인증 등록/관리</a></li>
+                                        <li><a href="#">금융인증서 등록/변경/취소</a></li>
+                                        <li><a href="#">공동인증서 등록/변경/취소</a></li>
+                                        <li><a href="#">공동인증서 복사(PC->스마트폰)</a></li>
+                                        <li><a href="#">공동인증서 복사(스마트폰->PC)</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">인터넷창구 오류해결안내</a>
+                                </li>
+                            </ul>
+                            <ul class="boxmenu">
+                                <li><a href="#">그림으로 쉽게보는 보험가이드</a></li>
+                            </ul>
+                        </div>
+                        <div class="slsub9 slright">
+                            <ul>
+                                <li><a href="#">소비자포털 홈</a></li>
+                                <li>
+                                    <a href="#">금융소비자보호체계<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">소비자보호 원칙</a></li>
+                                        <li><a href="#">소비자보호 조직</a></li>
+                                        <li><a href="#">소비자보호 우수사례</a></li>
+                                        <li><a href="#">금융소비자보호기준/금융소비자보호 내부통제 기준</a></li>
+                                        <li><a href="#">위법계약해지권</a></li>
+                                        <li><a href="#">자료열람 안내</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">소비자보호공시</a></li>
+                                <li>
+                                    <a href="#">유용한 정보공시<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">마음 담은 보험이야기</a></li>
+                                        <li><a href="#">금융생활정보</a></li>
+                                        <li><a href="#">금융사고예방</a></li>
+                                        <li><a href="#">생활속금융정보</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">유용한 보험제도<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">금융소비자보호법</a></li>
+                                        <li><a href="#">보험가입 관련제도</a></li>
+                                        <li><a href="#">보험금청구 제도</a></li>
+                                    </ul>
+                                </li>
+                                <li><a href="#">고객불편 주요사례</a></li>
+                                <li>
+                                    <a href="#">전자민원<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">전자민원접수</a></li>
+                                        <li><a href="#">접수결과조화</a></li>
+                                    </ul>
+                                </li>
+                                <li>
+                                    <a href="#">신고센터<i></i></a>
+                                    <ul class="none">
+                                        <li><a href="#">보험사기 신고</a></li>
+                                        <li><a href="#">모집질서 신고</a></li>
+                                        <li><a href="#">보험가입차별 신고</a></li>
+                                        <li><a href="#">부정 및 금융사고 신고</a></li>
+                                        <li><a href="#">과장광고 및 안내자료 신고</a></li>
+                                        <li><a href="#">대출부당광고 신고</a></li>
+                                        <li><a href="#">펀드판매불편 신고</a></li>
+                                        <li><a href="#">금융사기 신고</a></li>
+                                        <li><a href="#">장애인 금융피해상황 의심신고</a></li>
+                                    </ul>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </section>
+            </div>
+        </div>
+        <div id="headergnb">
+            <div class="wrap">
+                <div class="mob-mainheader">
+                    <h1>
+                        <a href="#"><img src="images/hi_logo.png" alt="로고이미지"></a>
+                    </h1>
+
+                    <div class="mob header">
+                        <strong>가</strong><span>큰글씨</span>
+                        <a href="#" class="xi-bars xeicon"></a>
+                    </div>
+                </div>
+                <ul class="gnb pc">
+                    <li><a href="#">인터넷창구</a></li>
+                    <li><a href="#">보험상품</a></li>
+                    <li><a href="#">대출</a></li>
+                    <li><a href="#">보상서비스</a></li>
+                    <li><a href="#">혜택/이벤트</a></li>
+                    <li><a href="#">스마트발급센터</a></li>
+                    <li><a href="#">고객지원센터</a></li>
+                </ul>
+                <div class="uti pc">
+                    <a href="#">회원가입</a>
+                    <a href="#">로그인</a>
+                    <input type="text" placeholder="메뉴명/상품명검색">
+                    <img src="images/ico_mn_search.png" alt="돋보기아이콘">
+                </div>
+            </div>
+        </div>
+        <div id="headergnbH" class="mob">
+
+        </div>
+        <div id="sub1" class="subp pc">
+            <div class="wrap">
+                <ul class="subtx">
+                    <li class="textf textwh"><a href="#" class="bck">개인</a></li>
+                    <li class="textl textwh"><a href="#" class="bck">법인</a></li>
+                </ul>
+                <div class="bflex1 flexeven">
+                    <div class="sec1">
+                        <h3>계약조회</h3>
+                        <ul>
+                            <li id="lifc">
+                                <h3>장기보험계약변경</h3>
+                            </li>
+                            <li><a href="#">자녀등록(태아확정)</a></li>
+                            <li><a href="#">다자녀할인(어린이보험)신청</a></li>
+                            <li><a href="#">계약자 변경</a></li>
+                            <li><a href="#">수익자 변경</a></li>
+                            <li><a href="#">자동갱신특약 갱신거절</a></li>
+                        </ul>
+                    </div>
+                    <div class="sec2">
+                        <ul>
+                            <li id="lifc">
+                                <h3>자동차보험계약 변경</h3>
+                            </li>
+                            <li><a href="#">자동차번호 확정/변경</a></li>
+                            <li><a href="#">운전자/연령범위 변경</a></li>
+                            <li><a href="#">가입경력인정자 신청/변경</a></li>
+                            <li><a href="#">단기운전자 확대특약가입</a></li>
+                            <li><a href="#">ECO마일리지특약중도가입</a></li>
+                            <li><a href="#">특약사진 등록/조회</a></li>
+                            <li><a href="#">담보/특약 변경</a></li>
+                        </ul>
+                    </div>
+                    <div class="sec3">
+                        <ul>
+                            <li id="lifc">
+                                <h3>계약 체결/관리</h3>
+                            </li>
+                            <li><a href="#">우편물수령지 변경</a></li>
+                            <li><a href="#">개인(신용)정보처리 동의</a></li>
+                            <li><a href="#">계약체결을 위한 전자서명</a></li>
+                            <li><a href="#">완전판매e모니터링</a></li>
+                            <li><a href="#">계약변경/부활 전자서명</a></li>
+                            <li><a href="#">계약해지</a></li>
+                            <li><a href="#">청약철회</a></li>
+                            <li><a href="#">타사 연금이전 신청</a></li>
+                            <li><a href="#">TM상품녹취 신청/조회</a></li>
+                        </ul>
+                    </div>
+                    <div class="sec4">
+                        <ul>
+                            <li id="lifc">
+                                <h3>납입/환급</h3>
+                            </li>
+                            <li><a href="#">보혐료 납입</a></li>
+                            <li><a href="#">연급저축보험료 추가납입</a></li>
+                            <li><a href="#">자동이체계좌 신청/변경</a></li>
+                            <li><a href="#">신용카드 등록/변경/해지</a></li>
+                            <li><a href="#">가상계좌 신청</a></li>
+                            <li><a href="#">환급금지급계좌 신청/변경</a></li>
+                            <li><a href="#">만기/중도환급금 신청</a></li>
+                            <li><a href="#">자동차미환급금 신청</a></li>
+                            <li><a href="#">휴면보험금 신청</a></li>
+                            <li><a href="#">연금 신청</a></li>
+                            <li><a href="#">중도인출 신청</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="sub1B" class="bg">
+                <div class="wrap subb">
+                    <span class="xi-file-remove-o iconsz"></span>
+                    <span><a href="#">대리운전계약조회</a></span>
+                </div>
+            </div>
+        </div>
+        <div id="sub2" class="subp pc">
+            <div class="wrap">
+                <ul class="subtx">
+                    <li class="textf textwh"><a href="#" class="bck">대표</a></li>
+                    <li class="textl textwh"><a href="#" class="bck">다이렉트</a></li>
+                </ul>
+                <div class="bflex2 flexeven">
+                    <div class="sec1">
+                        <h3>내보험 컨디션 체크(보장분석)</h3>
+                        <ul>
+                            <li id="lifc">
+                                <h3>자동차/운전자</h3>
+                            </li>
+                            <li><a href="#">Hicar 자동차보험</a></li>
+                            <li><a href="#" class="ml">-Hicar개인용자동차보험</a></li>
+                            <li><a href="#" class="ml">-다이렉트자동차보험 <span class="spanba">인터넷</span></a></li>
+                            <li><a href="#">운전자보험</a></li>
+                            <li><a href="#" class="ml">-뉴하이카운전자상해보험</a></li>
+                            <li><a href="#" class="ml">-다이렉트운전자보험 <span class="spanba">인터넷</span></a></li>
+                            <li><a href="#" class="ml">-하이콜운전자보험(전화가입)</a></li>
+                        </ul>
+                    </div>
+                    <div class="sec2">
+                        <ul>
+                            <li id="lifc">
+                                <h3>건강/자녀</h3>
+                            </li>
+                            <li><a href="#">퍼펙트플러스종합보험</a></li>
+                            <li><a href="#">굿앤굿어린이종합보험Q</a></li>
+                            <li><a href="#">굿앤어린이스타종합보험</a></li>
+                            <li><a href="#">계속받는암보험</a></li>
+                            <li><a href="#">밝게웃는얼굴치아보험 <span class="new">new</span></a></li>
+                        </ul>
+                    </div>
+                    <div class="sec3">
+                        <ul>
+                            <li id="lifc">
+                                <h3>유병자/실손</h3>
+                            </li>
+                            <li><a href="#">뉴간편플러스종합보험</a></li>
+                            <li><a href="#">간편한333건강보험</a></li>
+                            <li><a href="#">실손의료비보장보험</a></li>
+                        </ul>
+                    </div>
+                    <div class="sec4">
+                        <ul>
+                            <li id="lifc">
+                                <h3>화재/재물</h3>
+                            </li>
+                            <li><a href="#">성공마스터재산종합보험</a></li>
+                            <li><a href="#">행복가득생활보장보험</a></li>
+                            <li class="lifc">
+                                <h3>연금/저축</h3>
+                            </li>
+                            <li><a href="#">노후웰스보험 </a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sub3" class="subp pc">
+            <div class="wrap">
+                <div class="bflex3 flexeven">
+                    <div class="sec1">
+                        <ul>
+                            <li id="lifc">
+                                <h3>보험계약대출</h3>
+                            </li>
+                            <li><a href="#">보험계약대출 신청</a></li>
+                            <li><a href="#">보험계약대출 상환</a></li>
+                            <li><a href="#">이자납입계좌 변경</a></li>
+                            <li><a href="#">보험계약대출거래내역조회</a></li>
+                        </ul>
+                    </div>
+                    <div class="sec2">
+                        <li class="lifc">
+                            <h3>담보대출</h3>
+                        </li>
+                        <li><a href="#">담보대출</a></li>
+                        <li><a href="#" class="ml">-아파트담보대출</a></li>
+                        <li><a href="#" class="ml">-주택담보대출</a></li>
+                        <li><a href="#" class="ml">-오피스텔담보대출</a></li>
+                        <li><a href="#" class="ml">-임대아파트 보증금담보대출</a></li>
+                        <li><a href="#">담보대출 상환</a></li>
+                        <li><a href="#">담보대출거래내역조회</a></li>
+                        <li><a href="#">금리산점내역서조회</a></li>
+                        <li><a href="#">온라인서류제출(스크래핑)</a></li>
+                    </div>
+                    <div class="sec3">
+                        <ul>
+                            <li id="lifc">
+                                <h3>주식매입자금대출</h3>
+                            </li>
+                            <li id="lifc">
+                                <h3>금리인하요구권(개인/기업)</h3>
+                            </li>
+                            <li id="lifc">
+                                <h3>대출계약철회권</h3>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="sub3B" class="bg">
+                <div class="wrap subb">
+                    <ul>
+                        <li>
+                            <span class="xi-file-remove-o iconsz"></span>
+                            <a href="#">대출이자계산기</a>
+                            <a href="#">부대비용안내</a>
+                            <a href="#">채권추심없무처리절차</a>
+                            <a href="#">소멸시효완성결과조회</a>
+                        </li>
+                        <li>
+                            <span class="xi-download iconsz"></span>
+                            <a href="#">기업여신거래기본약관</a>
+                            <a href="#">개인여신거래기본약관</a>
+                            <a href="#">자본시장법시행안내</a>
+                            <a href="#">표준투자권유준착안내</a>
+                            <a href="#">예탁금이용료지급기준</a>
+                        </li>
+                        <li>
+                            <span class="xi-file-upload-o iconsz"></span>
+                            <a href="#">대출부당광고신고센터</a>
+                            <a href="#">신용회복지원제도</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="sub4" class="subp pc">
+            <div class="wrap">
+                <div class="bflex4 flexeven">
+                    <div class="sec1">
+                        <ul>
+                            <li id="lifc">
+                                <h3>질병/상형</h3>
+                            </li>
+                            <li><a href="#">질병/상해 보험금청구</a></li>
+                            <li><a href="#">단체보험보험금청구</a></li>
+                            <li><a href="#">질병/상해/단체보험 서류제출</a></li>
+                            <li><a href="#">질병/상해/단체보험 처리현황조회</a></li>
+                            <li><a href="#">온라인서류제출(스크래핑)</a></li>
+                        </ul>
+                    </div>
+                    <div class="sec2">
+                        <ul>
+                            <li id="lifc">
+                                <h3>자동차</h3>
+                            </li>
+                            <li><a href="#">사고접수 안내</a></li>
+                            <li><a href="#">자동차사고 처리현황조회</a></li>
+                            <li><a href="#">하이카서비스이용내역</a></li>
+                        </ul>
+                    </div>
+                    <div class="sec3">
+                        <ul>
+                            <li id="lifc">
+                                <h3>재물/배상책임(일반보험)</h3>
+                            </li>
+                            <li><a href="#">재물/배상책임 보험금청구</a></li>
+                            <li><a href="#">휴대품 손해 보험금청구</a></li>
+                            <li><a href="#">휴대품 손해 서류제출</a></li>
+                            <li><a href="#">재물/배상/휴대품 처리현황조회</a></li>
+                        </ul>
+                    </div>
+                    <div class="sec4">
+                        <ul>
+                            <li id="lifc">
+                                <h3>보상가이드</h3>
+                            </li>
+                            <li><a href="#">교통사고처리요령</a></li>
+                            <li><a href="#">자동차 사고발생시 책임</a></li>
+                            <li><a href="#">자동차사고보험처리유불리</a></li>
+                            <li><a href="#">첨부보장사업</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="sub4B" class="bg">
+                <div class="wrap  subb">
+                    <ul>
+                        <li>
+                            <span class="xi-file-remove-o iconsz"></span>
+                            <a href="#">과실비율판정</a>
+                            <a href="#">자동차리콜정보</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div id="sub5" class="subp pc">
+            <div class="wrap">
+                <div class="bflex5 flexeven">
+                    <div class="sec1">
+                        <ul>
+                            <li id="lifc">
+                                <h3>우수고객서비스</h3>
+                            </li>
+                        </ul>
+                    </div>
+                    <div class="sec2">
+                        <ul>
+                            <li id="lifc">
+                                <h3>하이커서비스</h3>
+                            </li>
+                            <li><a href="#">고장출동서비스</a></li>
+                            <li><a href="#">우수제휴정비업체서비스</a></li>
+                        </ul>
+                    </div>
+                    <div class="sec3">
+                        <ul>
+                            <li id="lifc">상품부가/제휴서비스</li>
+                            <li><a href="#">하이헬스챌린지</a></li>
+                            <li><a href="#">메디케어</a></li>
+                        </ul>
+                    </div>
+                    <div class="sec4">
+                        <ul>
+                            <li id="lifc">
+                                <h3>이벤트</h3>
+                            </li>
+                            <li id="lifc">
+                                <h3>재테크BTI</h3>
+                            </li>
+                            <li id="lifc">
+                                <h3>타로BTI</h3>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sub6" class="subp pc">
+            <div class="wrap">
+                <div class="bflex6 flexeven">
+                    <div class="sec1">
+                        <ul>
+                            <li id="lifc">
+                                <h3>증명서발급</h3>
+                            </li>
+                            <li><a href="#">보험증권</a></li>
+                            <li><a href="#">소득공제용보험료납임증명서</a></li>
+                            <li><a href="#">손비처리용보험료납임증명서</a></li>
+                            <li><a href="#">보험금지급내역서</a></li>
+                            <li><a href="#">장기보험증명서</a></li>
+                            <li><a href="#">자동차보험증명서</a></li>
+                            <li><a href="#">보험계약대출증명서</a></li>
+                            <li><a href="">담보대출증명서</a></li>
+                        </ul>
+                    </div>
+                    <div class="sec2">
+                        <ul>
+                            <li id="lifc">
+                                <h3>보험금청구 필요서류</h3>
+                            </li>
+                            <li><a href="#">질병/일반상해</a></li>
+                            <li><a href="#">교통상해</a></li>
+                            <li><a href="#">자동차</a></li>
+                            <li><a href="#">재물</a></li>
+                            <li><a href="#">배상책임</a></li>
+                            <li><a href="#">여행</a></li>
+                            <li><a href="#">기타</a></li>
+                        </ul>
+                    </div>
+                    <div class="sec3">
+                        <ul>
+                            <li id="lifc">
+                                <h3>업무처리 필요서류</h3>
+                            </li>
+                            <li><a href="#">장기보험</a></li>
+                            <li><a href="#">자동차보험</a></li>
+                            <li><a href="#">담보대출 신청서류</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="sub7" class="subp pc">
+            <div class="wrap">
+                <div class="bflex7 flexeven">
+                    <div class="sec1">
+                        <ul>
+                            <li id="lifc">
+                                <h3>자주하는 질문(FAQ)</h3>
+                            </li>
+                            <li id="lifc">
+                                <h3>보험용어 사전</h3>
+                            </li>
+                            <li id="lifc">
+                                <h3>고객의 소리</h3>
+                            </li>
+                            <li><a href="#">질문/건의</a></li>
+                            <li><a href="#">고객칭찬</a></li>
+                            <li><a href="#">전자민원접수</a></li>
+                        </ul>
+                    </div>
+                    <div class="sec2">
+                        <ul>
+                            <li id="lifc">
+                                <h3>서비스 이용안내</h3>
+                            </li>
+                            <li><a href="#">인터넷 서비스 이용시간 안내</a></li>
+                            <li><a href="#">모바일 이용안내</a></li>
+                            <li><a href="#">콜센터 이용안내</a></li>
+                            <li><a href="#">창구 이용안내</a></li>
+                            <li><a href="#">장애니 이용안내</a></li>
+                        </ul>
+                    </div>
+                    <div class="sec3">
+                        <ul>
+                            <li id="lifc">
+                                <h3>인증센터</h3>
+                            </li>
+                            <li><a href="#">간편인증서 발급/관리</a></li>
+                            <li><a href="#">금융인증서 등록/변경/취소</a></li>
+                            <li><a href="#">공동인증서 등록/변경/취소</a></li>
+                            <li><a href="#">공동인증서 복사(PC<span class="xi-long-arrow-right"></span>스마트폰)</a></li>
+                            <li><a href="#">공동인증서 복사(스마트폰<span class="xi-long-arrow-right"></span>PC)</a></li>
+                        </ul>
+                    </div>
+                    <div class="sec4">
+                        <ul>
+                            <li id="lifc">
+                                <h3>보안센터</h3>
+                            </li>
+                            <li><a href="#">보안프로그램 안내</a></li>
+                            <li><a href="#">보안프로그램 설치</a></li>
+                            <li id="lifc">
+                                <h3>인터넷창구 오류해결안내</h3>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div id="sub7B" class="bg">
+                <div class="wrap  subb">
+                    <ul>
+                        <li>
+                            <span class="xi-file-remove-o iconsz"></span>
+                            <a href="#">그림으로 쉽게보는 보험가이드</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section id="main">
+        <h2 class="blind">메인비주얼 배너</h2>
+        <ul class="slide">
+            <li>
+                <div class="mainvisul">
+                    <p>새롭게 단장된 현대해상 홈페이지 구경하고 <br class="mob">설문 이벤트<br class="pc">응모하는 고객님께 추첨을 통해 <br class="mob">3,500명에게 시원하게 쏩니다.</p>
+                    <span>
+                        <img src="images/main1icon.png" alt="메인비주얼아이콘">
+                    </span>
+                    <span>새단장</span><span style="color:#5b8857;">Welcome이벤트</span>
+                    <a href="$">이벤트 바로가기 <i class="xi-angle-right"></i></a>
+                    <figure>
+                        <img src="images/main1.png" alt="메인비주얼그림">
+                    </figure>
+                </div>
+            </li>
+            <li class="mob">
+                <div class="mainvisul">
+                    <p>자동차에 긴급한 상황이 발생한 경우<br>365일,24시간 출동 가능한</p>
+                    <span>고장출동서비스</span>
+                    <a href="$">고장출동신청 바로가기 <i class="xi-angle-right"></i></a>
+                    <figure>
+                        <img src="images/mainslide2.png" alt="메인비주얼그림">
+                    </figure>
+                </div>
+            </li>
+            <li>
+                <div class="mainvisul">
+                    <p>충분할까?부족하진않을까?<br>나와 가족의 미래를 위한준비</p>
+                    <span>현대해상이 함께 고민합니다.</span>
+                    <a href="$">내 보험 컨디션 체크 바로가기<i class="xi-angle-right"></i></a>
+                    <figure>
+                        <img src="images/main2.png" alt="메인비주얼그림">
+                    </figure>
+                </div>
+            </li>
+            <li>
+                <div class="mainvisul">
+                    <p class="pc">질병/상해 뿐만 아니라 단체보험도<br class="pc">최대500만원까지 즉시 청구 가능합니다.<br class="pc">일반보험의 재물사고 및 배상책임,휴대품 손해도 온라인으로~</p>
+                    <span>보험금청구 서비스 확대</span>
+                    <div class="main3visul">
+                        <a href="#">질병/상해<i><img src="images/mainw.png" alt="화살표"></i></a>
+                        <a href="#">재물/배상책임<i><img src="images/mainw.png" alt="화살표"></i></a>
+                        <a href="#">휴대품 손해<i><img src="images/mainw.png" alt="화살표"></i></a>
+                        <a href="#">단체보험<i><img src="images/mainw.png" alt="화살표"></i></a>
+                    </div>
+                </div>
+            </li>
+            <li>
+                <div class="mainvisul">
+                    <p class="pc">창구 방문 없이도 모바일로 간편하게 장기보험 계약변경이 가능합니다.<br class="pc">자동차보험의 주요담보 및 특약변경도 셀프 서비스로 이용해 보세요</p>
+                    <span>인터넷창구 계약변경 서비스</span>
+                    <div class="acr">
+                        <a href="$">장기보험 계약자 변경 <i class="xi-angle-right"></i></a>
+                        <a href="$">장기보험 수익자 변경 <i class="xi-angle-right"></i></a>
+                        <a href="$">자동차 담보/특약 변경 <i class="xi-angle-right"></i></a>
+                    </div>
+                    <figure>
+                        <img src="images/main4.png" alt="메인비주얼그림">
+                    </figure>
+                </div>
+            </li>
+            <li>
+                <div class="mainvisul">
+                    <p>6자리 비밀번호?패턴?FACE ID/지문?<br>나에게 가장 편한 방법을 골라<br>로그인부터 전자서명까지 한 번에</p>
+                    <span>
+                        <img src="images/main5icon.png" alt="메인비주얼아이콘">
+                    </span><span>간편 인증서</span>
+                    <a href="$">간편인증서 발급/관리 <i class="xi-angle-right"></i></a>
+                    <figure>
+                        <img src="images/main5.png" alt="메인비주얼그림">
+                    </figure>
+                </div>
+            </li>
+            <li class="mob">
+                <div class="mainvisul">
+                    <p>더 안전하고,빠르게 얼굴로 인증하자!<br>지금 바로 모바일 앱에서 이용해 보세요.</p>
+                    <span>얼굴인증</span>
+                    <a href="$">얼굴인증 등록/관리 <i class="xi-angle-right"></i></a>
+                    <figure>
+                        <img src="images/mainslide7.png" alt="메인비주얼그림">
+                    </figure>
+                </div>
+            </li>
+            <li>
+                <div class="mainvisul">
+                    <p>가격은 낮추고 보상서비스는 그대로,<br class="pc">인터넷 가입으로 평균17.3% 저렴.<i>&#42;지사 오프라인 대비</i></p>
+                    <span>다이렉트 자동차보험</span>
+                    <a href="$">내 차 보험료 확인하기 <i class="xi-angle-right"></i></a>
+                    <figure>
+                        <img src="images/main6.png" alt="메인비주얼그림">
+                    </figure>
+                    <div class="text">
+                        <p>
+                            준법감시안 확인필제 제 202220807호(유효기간 2022.03.23~2023.03.22)
+                        </p>
+                    </div>
+                </div>
+            </li>
+        </ul>
+        <div class="pagebox">
+            <div class="wrap">
+                <ul class="page">
+                    <li class="select"></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li></li>
+                    <li class="mob"></li>
+                    <li class="mob"></li>
+                </ul>
+                <span class="mainstop"></span>
+            </div>
+        </div>
+    </section>
+    <section id="icon">
+        <h2 class="blind">주요서비스바로가기</h2>
+        <div class="cont cl">
+            <div class="view_box">
+                <h3 class="pc">주요서비스<br>바로가기</h3>
+                <ul>
+                    <li>
+                        <a href="#">
+                            <span><img src="images/icon1.png" alt="계약조회"></span>
+                            <p>계약조회</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#"><span><img src="images/icon2.png" alt="질병/상해보험금청구"></span>
+                            <p>질병/상해<br>보험금청구</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><img src="images/icon3.png" alt="보험계약대출신청"></span>
+                            <p>보험계약대출<br>신청</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><img src="images/icon4.png" alt="보험료납입"></span>
+                            <p>보험료 납입</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><img src="images/icon5.png" alt="단기운전자확대특약가임"></span>
+                            <p>단기운전자<br>확대특약가입</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><img src="images/icon6.png" alt="계약체결을위한전자서명"></span>
+                            <p>계약체결을<br>위한<br class="pc">전자서명</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><img src="images/icon6.png" alt="보험증권"></span>
+                            <p>보험증권</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><img src="images/icon7.png" alt="질병/상해처리현황조회"></span>
+                            <p>질병/상해<br>처리현황조회</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><img src="images/icon8.png" alt="단체보험보험금청구"></span>
+                            <p>단체보험<br>보험금청구</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><img src="images/icon9.png" alt="가상계좌신청"></span>
+                            <p>가상계좌 신청</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><img src="images/icon10.png" alt="개인정보변경"></span>
+                            <p>개인정보 변경</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><img src="images/icon11.png" alt="완전판매e모니터링"></span>
+                            <p>완전판매<br>e모니터링</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><img src="images/icon12.png" alt="내보험컨디션체크"></span>
+                            <p>내 보험 컨디션<br>체크(보장분석)</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <span><img src="images/icon13.png" alt="특약사진등록/조회"></span>
+                            <p>특약사진<br class="pc">등록/<br class="mob">초회</p>
+                        </a>
+                    </li>
+                </ul>
+                <button>
+                    <span class="mob">더보기</span>
+                    <a href="#" onclick="return false"></a>
+                </button>
+            </div>
+            <div class="iconinfo pc">
+                <a href="#">
+                    <span>보험가입<br>상담신청</span>
+                </a>
+            </div>
+        </div>
+    </section>
+    <section id="tab" class="pc">
+        <div class="fiexdicon">
+            <ul>
+                <li>
+                    <a href="#">
+                        <img src="images/fiexdicon1.png" alt="최근본메뉴">
+                        <p>최근<br>본 메뉴</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/fiexdicon2.png" alt="간편인증서발급/관리">
+                        <p>간편인증서<br>발급/관리</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/fiexdicon3.png" alt="공동인증서복사">
+                        <p>공동인증서<br>복사</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/fiexdicon4.png" alt="소비자포털">
+                        <p>소비자포털</p>
+                    </a>
+                </li>
+                <li>
+                    <a href="#">
+                        <img src="images/fiexdicon5.png" alt="지점찾기">
+                        <p>지점찾기</p>
+                    </a>
+                </li>
+            </ul>
+        </div>
+    </section>
+    <div id="button">
+        <a href="#">TOP</a>
+    </div>
+    <section id="contents">
+        <ul class="fiexhd mob wrap">
+            <li class="before og"><a href="#">추천</a></li>
+            <li><a href="#">상품</a></li>
+            <li><a href="#">마음 담은</a></li>
+        </ul>
+        <div class="fiexhdH">
+
+        </div>
+        <div id="contents1" class="wrap on">
+            <h2 class="blind">현대해상추천</h2>
+            <div class="frame">
+                <ul class="slidecont">
+                    <li class="box1">
+                        <a href="#" class="box1a box1abg1">
+                            <p>성격으로 알아보는</p>
+                            <strong>나의 재테크 BTI</strong>
+                        </a>
+                        <a href="#" class="box1a box1abg2">
+                            <p>성격 타로 카드로 알아보는</p>
+                            <strong>나의 재물운</strong>
+                        </a>
+                    </li>
+                    <li class="box2">
+                        <a href="#" class="box2a">
+                            <p>보험금청구도 이제는 손 안에서 척척&#33;<br>365일24시간 각종 증명서와 보험증권을<br>쉽게 찾고 바로 다운로드할 수 있어요.</p>
+                            <strong>스마트발급셉터 <i class="xi-angle-right"></i></strong>
+                        </a>
+                    </li>
+                    <li class="mob box3">
+                        <a href="#">
+                            <p>작은 글씨가 답답하게 느껴졌다면?<br>시원하게 커진 현대해상 모바일 큰글씨 서비스를<br>이용해 보세요.</p>
+                            <strong>큰글씨 서비스 <i class="xi-angle-right"></i></strong>
+                        </a>
+                    </li>
+                </ul>
+                <div class="contpage">
+                    <ul>
+                        <li class="selectcont"></li>
+                        <li></li>
+                        <li class="mob"></li>
+                    </ul>
+                    <span class="stop"></span>
+                </div>
+            </div>
+            <div class="user cl">
+                <img src="images/ico_h_heart.png" alt="img" class="pc">
+                <h3 class="pc">현대해상이 <span>추천</span>해요</h3>
+                <div class="money">
+                    <p>긴급자금이 필요할 때<br>신용점수 걱정없이 언제든 편리하게</p>
+                    <strong>보험계약대출 신청</strong>
+                    <a href="#">대출가능금액 확인</a>
+                </div>
+                <div class="pmt">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <p>내 아이 성장,<br>또래와 비교하며 꼼꼼하게 케어해 보세요.</p>
+                                <span>&#35;굿앤굿어린이케어&#35;엄마도함께관리</span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>하이헬스챈린지로<br>매일 건강해지는 나를 확인해 보세요.</p>
+                                <span>&#35;전문가코칭서비스&#35;미션달성&#35;포인트적립</span>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+        <div id="contents2">
+            <div class="wrap">
+                <h2 class="blind">상품추천</h2>
+                <div class="cont2top pc">
+                    <img src="images/ico_h_heart.png" alt="img" class="pc">
+                    <h3 class="pc">이런 <span>상품</span> 어떠세요?</h3>
+                    <a href="#">내 보험 컨디션 먼저 체크할래요 <i class="xi-angle-right"></i></a>
+                </div>
+                <div class="swiper mySwiper">
+                    <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <ul>
+                                <li class="bule">
+                                    <a href="#">
+                                        <strong>퍼펙트플러스 종합보험</strong>
+                                        <p>보장은 더하고 부담은 빼고<br>내게 꼭 맞는 종합보험으로<br>맞춤설계 하세요!</p>
+                                        <img src="images/cont2slide1.png" alt="이미지">
+                                        <b>준법감시인 심의필 제20221243호 (유효기간2022.04.13~2022.04.12)</b>
+                                    </a>
+                                </li>
+                                <li class="bule">
+                                    <a href="#">
+                                        <strong>굿앤굿어린이 종합보험Q</strong>
+                                        <p>부모와 같은 마음으로<br>현대해상이 우리 아이를 소중하게<br>지켜드립니다.</p>
+                                        <img src="images/cont2slide2.png" alt="이미지">
+                                        <b>준법감시인 심의필 제20221247호 (유효기간2022.04.14~2022.04.13)</b>
+                                    </a>
+                                </li>
+                                <li class="bule">
+                                    <a href="#">
+                                        <strong>굿앤굿어린이스타 종합보험</strong>
+                                        <p>출생후부터 성인이 될 때까지<br>성장하는 자녀의 든든한 내일을<br>준비합니다.</p>
+                                        <img src="images/cont2slide3.png" alt="이미지">
+                                        <b>준법감시인 심의필 제20221246호 (유효기간2022.04.14~2022.04.13)</b>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul>
+                                <li class="bule">
+                                    <a href="#">
+                                        <strong>계속받는암보험</strong>
+                                        <p>암 전조 증상은 물론 치료뿐만 아니라<br>보험기간 중 발생되는 암 진단까지<br>계속해서 보장!</p>
+                                        <img src="images/cont2slide4.png" alt="이미지">
+                                        <b>준법감시인 심의필 제20221257호 (유효기간2022.04.15~2022.04.14)</b>
+                                    </a>
+                                </li>
+                                <li class="bule">
+                                    <a href="#">
+                                        <strong>밝게웃는얼굴치아보험</strong>
+                                        <p>튼튼한 치아로 건강하게!<br>밝은 얼굴로 당당하게!<br>얼굴과 치아를 위한 후회없는 선택</p>
+                                        <img src="images/cont2slide5.png" alt="이미지">
+                                        <b>준법감시인 심의필 제20221244호 (유효기간2022.04.13~2022.04.12)</b>
+                                    </a>
+                                </li>
+                                <li class="bule">
+                                    <a href="#">
+                                        <strong>뉴간편플러스종합보험</strong>
+                                        <p>지병이 있어도,나이가 많아도 간편하게!<br>진단,수술,입원일당 다양한 종합보장</p>
+                                        <img src="images/cont2slide6.png" alt="이미지">
+                                        <b>준법감시인 심의필 제20221276호 (유효기간2022.04.15~2022.04.14)</b>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul>
+                                <li class="bule">
+                                    <a href="#">
+                                        <strong>간편한333건강보험</strong>
+                                        <p>가입은 간편하게,마음은 든든하게<br>이제 부담없이 준비하세요!</p>
+                                        <img src="images/cont2slide7.png" alt="이미지">
+                                        <b>준법감시인 심의필 제20221248호 (유효기간2022.04.14~2022.04.13)</b>
+                                    </a>
+                                </li>
+                                <li class="bule">
+                                    <a href="#">
+                                        <strong>실손의료비보장보험</strong>
+                                        <p>국민의75%가 가입하는 실손보험!<br>크고 작은 상해/질병에<br>반드시 필요합니다!</p>
+                                        <img src="images/cont2slide8.png" alt="이미지">
+                                        <b>준법감시인 심의필 제20221277호 (유효기간2022.04.15~2022.04.14)</b>
+                                    </a>
+                                </li>
+                                <li class="pc">
+                                    <a href="#">
+
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul>
+                                <li class="brown">
+                                    <a href="#">
+                                        <strong>Hicar개인용자동차보험</strong>
+                                        <p>현대해상 하이카 자동차보험이 위험한 도로 위에<br>확실한 매니저가 되어드립니다.</p>
+                                        <img src="images/cont2slide9.png" alt="이미지">
+                                        <b>준법감시인 심의필 제20218546호 (유효기간2021.09.23~2021.09.22)</b>
+                                    </a>
+                                </li>
+                                <li class="brown">
+                                    <a href="#">
+                                        <strong>뉴하이카운전자상해보험</strong>
+                                        <p>갑작스런 교통사고<br>일상생활의 상해사고 등<br>폭넓게 보장해 드립니다.</p>
+                                        <img src="images/cont2slide10.png" alt="이미지">
+                                        <b>준법감시인 심의필 제20221257호 (유효기간2022.04.14~2022.04.13)</b>
+                                    </a>
+                                </li>
+                                <li class="brown">
+                                    <a href="#">
+                                        <strong>다이렉트 운전자보험</strong>
+                                        <p>운전자에게 꼭 필요한 필수품<br>자사 오프라인 대비 평균 14.2%<br>저렴하게 가입하세요.</p>
+                                        <img src="images/cont2slide11.png" alt="이미지">
+                                        <b>준법감시인 심의필 제20220807호 (유효기간2022.03.23~2022.03.22)</b>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul>
+                                <li class="brown">
+                                    <a href="#">
+                                        <strong>다이렉트 이륜차보험</strong>
+                                        <p>가정용,배달용 모두OK<br>자사 오프라인 대비 평균 16.3%<br>저렴하게 가입하세요.</p>
+                                        <img src="images/cont2slide12.png" alt="이미지">
+                                        <b>준법감시인 심의필 제20220807호 (유효기간2022.03.23~2022.03.22)</b>
+                                    </a>
+                                </li>
+                                <li class="sky">
+                                    <a href="#">
+                                        <strong>성공마스터재산종합보험</strong>
+                                        <p>예상치 못한 각종 사고로부터<br>내 사람,내 재산을 모두 지키는<br>현명한 방법!</p>
+                                        <img src="images/cont2slide13.png" alt="이미지">
+                                        <b>준법감시인 심의필 제20221250호 (유효기간2022.04.14~2022.04.13)</b>
+                                    </a>
+                                </li>
+                                <li class="sky">
+                                    <a href="#">
+                                        <strong>행복가득생활보장보험</strong>
+                                        <p>보장은 더하고 부담은 빼고<br>내게 꼭 맞는 종합보험으로<br>맞춤설계 하세요!</p>
+                                        <img src="images/cont2slide14.png" alt="이미지">
+                                        <b>준법감시인 심의필 제20221243호 (유효기간2022.04.13~2022.04.12)</b>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                        <div class="swiper-slide">
+                            <ul>
+                                <li class="sky">
+                                    <a href="#">
+                                        <strong>노후웰스보험</strong>
+                                        <p>은퇴후에도 걱정 없어요.<br>정기적인 연금 수령으로<br>안정적인 노후생활을 즐기세요.</p>
+                                        <img src="images/cont2slide15.png" alt="이미지">
+                                        <b>준법감시인 심의필 제20221254호 (유효기간2022.04.14~2022.04.13)</b>
+                                    </a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                <div class="swiper-button-next pc"></div>
+                <div class="swiper-button-prev pc"></div>
+                <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+            </div>
+        </div>
+        <div id="contents3">
+            <div class="wrap">
+                <h2 class="blind">현대해상이용팁</h2>
+                <div class="cont3top pc">
+                    <img src="images/ico_h_heart.png" alt="img" class="pc">
+                    <h3 class="pc"><span>마음</span> 담아 전해드려요</h3>
+                </div>
+                <div class="cont3height">
+                    <ul>
+                        <li>
+                            <a href="#">
+                                <p>그림으로 쉽게 보는<br>보험가이드</p>
+                                <img src="images/cont3height1.png" alt="이미지">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>모바일 셀프서비스<br>꿀팁</p>
+                                <img src="images/cont3height2.png" alt="이미지">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>보험에 대한<br>오해와 진실</p>
+                                <img src="images/cont3height3.png" alt="이미지">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>메신저 피싱 예방<br>가이드</p>
+                                <img src="images/cont3height4.png" alt="이미지">
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                <p>더 많은 보험 정보가<br>궁금하다면?</p>
+                                <img src="images/cont3height5.png" alt="이미지">
+                            </a>
+                        </li>
+                    </ul>
+                    <div class="button pc">
+                        <a href="#" onclick="return false"></a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+        <div id="info">
+            <h2 class="blind">고객서비스</h2>
+            <div class="wrap">
+                <div class="dv">
+                    <h3>알려드려요</h3>
+                    <a href="#" class="xi-plus"></a>
+                    <ul>
+                        <li>
+                            <a href="#">
+                                2022글로벌고객만족도(GCSI)조사 1위 수상
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                실손의료보험의 보험금 지급사유 조사대상 선정기준
+                            </a>
+                        </li>
+                        <li>
+                            <a href="#">
+                                한국산업의 서비스 품질지수(KSQI)우수콜센터 인증
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="sv">
+                    <h3>고객서비스</h3>
+                    <div class="table">
+                        <a href="#">고객칭찬</a>
+                        <a href="#">자주 하는 질문</a>
+                        <a href="#">소비자포털</a>
+                        <a href="#">보험사기 신고</a>
+                        <a href="#">하이카서비스</a>
+                        <a href="#">하이플래너</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer>
+        <div class="footerTop pc">
+            <h2 class="blind">회사정보</h2>
+            <div class="wrap">
+                <ul class="footerPg">
+                    <li>
+                        <a href="#" onclick="return false">공시정보<i class="xi-angle-down"></i></a>
+                        <div class="footermnue">
+                            <ul>
+                                <li>
+                                    <a href="#">홈페이지&#8226;모바일 이용약관</a>
+                                </li>
+                                <li>
+                                    <a href="#">전자금융거래 이용약관</a>
+                                </li>
+                                <li>
+                                    <a href="#">신용정보활용체제</a>
+                                </li>
+                                <li>
+                                    <a href="#">경영공시</a>
+                                </li>
+                                <li>
+                                    <a href="#">사회공헌공시</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" onclick="return false">신고정보<i class="xi-angle-down"></i></a>
+                        <div class="footermnue">
+                            <ul>
+                                <li>
+                                    <a href="#">보험사기 신고</a>
+                                </li>
+                                <li>
+                                    <a href="#">모집질서 신고</a>
+                                </li>
+                                <li>
+                                    <a href="#">보험가입차별 신고</a>
+                                </li>
+                                <li>
+                                    <a href="#">대출부당광고 신고</a>
+                                </li>
+                                <li>
+                                    <a href="#">펀드판매불편 신고</a>
+                                </li>
+                                <li>
+                                    <a href="#">부정 및 금융사고 신고</a>
+                                </li>
+                                <li>
+                                    <a href="#">과장광고 및 안내자료 신고</a>
+                                </li>
+                                <li>
+                                    <a href="#">방카슈랑스부조리 신고</a>
+                                </li>
+                                <li>
+                                    <a href="#">장애인보험가입차별 신고</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" onclick="return false">안내/유의사항<i class="xi-angle-down"></i></a>
+                        <div class="footermnue">
+                            <ul>
+                                <li>
+                                    <a href="#">가지급보험금제도</a>
+                                </li>
+                                <li>
+                                    <a href="#">과오납보험료신청</a>
+                                </li>
+                                <li>
+                                    <a href="#">휴먼보험금조회</a>
+                                </li>
+                                <li>
+                                    <a href="#">임직원가족개인정보동의</a>
+                                </li>
+                                <li>
+                                    <a href="#">상속인금융거래조회</a>
+                                </li>
+                                <li>
+                                    <a href="#">서민금융1332서비스</a>
+                                </li>
+                                <li>
+                                    <a href="#">채권추심업무처리절차</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" onclick="return false">계열회사<i class="xi-angle-down"></i></a>
+                        <div class="footermnue">
+                            <ul>
+                                <li>
+                                    <a href="#">현대C&amp;R(주)</a>
+                                </li>
+                                <li>
+                                    <a href="#">현대하이카손해사정(주)</a>
+                                </li>
+                                <li>
+                                    <a href="#">현대HDS(주)</a>
+                                </li>
+                                <li>
+                                    <a href="#">현대인베스트먼트자산운용</a>
+                                </li>
+                                <li>
+                                    <a href="#">현대하이라이프손해사정(주)</a>
+                                </li>
+                                <li>
+                                    <a href="#">(주)마이금융파트너</a>
+                                </li>
+                                <li>
+                                    <a href="#">현대재산보험(중국)유한공사</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li>
+                        <a href="#" onclick="return false">SNS<i class="xi-angle-down"></i></a>
+                        <div class="footermnue">
+                            <ul>
+                                <li>
+                                    <a href="#">대표블로그</a>
+                                </li>
+                                <li>
+                                    <a href="#">대표페이스북</a>
+                                </li>
+                                <li>
+                                    <a href="#">대표유튜브)</a>
+                                </li>
+                                <li>
+                                    <a href="#">어린이보험블로그</a>
+                                </li>
+                                <li>
+                                    <a href="#">채용페이스북</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+            <div class="footerpgbg">
+
+            </div>
+        </div>
+        <div class="footersection">
+            <h2 class="blind">회사정보</h2>
+            <div class="wrap">
+                <ul class="footersns mob">
+                    <li>
+                        <a href="#">
+                            <div class="snssc">
+
+                            </div>
+                            <p>유튜브</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="snssc">
+
+                            </div>
+                            <p>페이스북</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="snssc">
+
+                            </div>
+                            <p>공식블로그</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="snssc">
+
+                            </div>
+                            <p>어린이블로그</p>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#">
+                            <div class="snssc">
+
+                            </div>
+                            <p>채용</p>
+                        </a>
+                    </li>
+                </ul>
+                <ul class="footeras mob">
+                    <li>
+                        <a href="#">개인청보처리방침</a>
+                    </li>
+                    <li>
+                        <a href="#">전자금융거래이용약관</a>
+                    </li>
+                    <li>
+                        <a href="#">홈페이지&#8226;모바일이용약관</a>
+                    </li>
+                </ul>
+                <ul class="footer1 pc">
+                    <li>
+                        <a href="#">개인정보처리방침(개인정보보호법)</a>
+                    </li>
+                    <li>
+                        <a href="#">고객권리안내문</a>
+                    </li>
+                    <li>
+                        <a href="#">보호금융상품등록부</a>
+                    </li>
+                    <li>
+                        <a href="#">가격공시</a>
+                    </li>
+                    <li>
+                        <a href="#">사이트맵</a>
+                    </li>
+                </ul>
+                <ul class="footer2 pc">
+                    <li>
+                        <a href="#"><img src="images/footerimg1.png" alt="이미지"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/footerimg2.png" alt="이미지"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/footerimg3.png" alt="이미지"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/footerimg4.png" alt="이미지"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/footerimg5.png" alt="이미지"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/footerimg6.png" alt="이미지"></a>
+                    </li>
+                    <li>
+                        <a href="#"><img src="images/footerimg7.png" alt="이미지"></a>
+                    </li>
+                </ul>
+                <div class="callbox">
+                    <a href="#" class="pc">ARS안내</a>
+                    <div class="cbox">
+                        <div class="bs">
+                            <span>대표콜센터</span><strong>1588-5656</strong>
+                        </div>
+                        <div class="hi">
+                            <span>하이카 다이렉트</span><strong>1577-1001</strong>
+                        </div>
+                    </div>
+                </div>
+                <ul class="adr">
+                    <li>현대해상화재보험(주)</li>
+                    <li>대표이사 조용일 이성재</li>
+                    <li class="pc">사업자등록번호 102-81-32035</li>
+                    <li>(03183) 서울특별시 종로구 세종대로 163,현대해상빌딩(세종로)</li>
+                    <li>Copyright Hyundai Marine &amp; Fire Insurance Co., Ltd.<br class="mob"><br class="mob">All rights reserved.</li>
+                </ul>
+            </div>
+        </div>
+    </footer>
+    <script src="js/hdirect.js"></script>
+
+
+
+</body>
+
+</html>
